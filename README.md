@@ -58,8 +58,7 @@ Features
 Filtering: Query logs based on log level, message, resource ID, and timestamp.
 Responsive UI: Ensures a seamless experience across various devices.
 Pagination: Navigate logs conveniently with paginated results.
-DEMO:
-![Demo Image](logs.jpeg)
+
 Known Issues
 CORS: The application may face CORS issues when accessing the backend from a different origin. Ensure proper CORS configuration on the server.
 Contributing
