@@ -30,4 +30,45 @@ Before running the application, ensure that you have the following software inst
 
    ```bash
    git clone https://github.com/YourUsername/log-viewer.git
+
+2. Change into the project directory:
+
+```bash
+cd log-viewer
 ```
+
+3.Install dependencies:
+
+```bash
+npm install
+```
+
+3.Start the application:
+
+```bash
+npm start
+```
+System Design
+The Log Viewer application follows a client-server architecture:
+
+Frontend: Built with React for a responsive and interactive user interface.
+Backend: Powered by Node.js and Express to handle API requests and interact with the MongoDB database.
+Database: MongoDB is used to store log data, providing flexibility in handling unstructured data.
+Features
+Filtering: Query logs based on log level, message, resource ID, and timestamp.
+Responsive UI: Ensures a seamless experience across various devices.
+Pagination: Navigate logs conveniently with paginated results.
+Known Issues
+CORS: The application may face CORS issues when accessing the backend from a different origin. Ensure proper CORS configuration on the server.
+Contributing
+We welcome contributions! Follow these steps to contribute:
+
+Fork the repository.
+Create a new branch: git checkout -b feature-name.
+Make changes and commit: git commit -m 'Add new feature'.
+Push to the branch: git push origin feature-name.
+Submit a pull request.
+License
+This project is licensed under the MIT License.
+
+© 2023 Your ShivaShankar Reddy
